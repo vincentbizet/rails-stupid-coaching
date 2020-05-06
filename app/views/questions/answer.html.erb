@@ -1,6 +1,16 @@
-<h1>Stupid Coaching</h1>
+<h2>Stupid Coaching</h2>
 
-<%= @question  %>
-<%= @answer %>
 
-# Go HTML
+<div class="student">
+  <p> <%= @question %> </p>
+
+  <p>– You</p>
+</div>
+
+<div class="coach">
+  <p id="bold"> <%= @answer %> </p>
+
+  <p>– Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>

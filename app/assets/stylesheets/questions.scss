@@ -1,0 +1,33 @@
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+.student {
+  border-left-style: groove;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: light;
+  box-shadow: 2px 2px 3px;
+}
+
+.coach {
+  border-left-style: groove;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: light;
+  background-color: #f9f3a7;
+  box-shadow: 2px 2px 3px;
+}
+
+#bold {
+  font-family: bold;
+}
+
+.button-blue {
+  background-color: blue;
+  box-shadow:2px 2px 3px;
+  color: white;
+}
